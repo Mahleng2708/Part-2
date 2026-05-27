@@ -14,7 +14,7 @@ public class QuickChat_part2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         
-        // ========== REGISTER ==========
+        
         System.out.println("=== REGISTRATION ===");
         System.out.print("Enter your firstname: ");
         String firstname = scan.next();
@@ -73,13 +73,13 @@ public class QuickChat_part2 {
             }
         }
         
-        // ========== Messages part  ==========
+        
         if (loggedIn) {
             showMessagingMenu(scan);
         }
     }
     
-    // Menu pour envoyer des messages
+    
     public static void showMessagingMenu(Scanner scan) {
         System.out.println("\n=== Welcome to QuickChat! ===");
         
