@@ -4,7 +4,7 @@
  */
 package com.mycompany.quickchat_part2;
 
-
+// my variables
 public class User {
     String username;
     String password;
